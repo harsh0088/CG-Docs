@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="containerbody">
+
+           <img id="docimg" src="registration.png" alt="image">
+    <div class="container">
+      
+        <form action="#">
+            <h2 id="formHead">Registration</h2>
+            <div class="user-details">
+                <div class="input-box">
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Username</span>
+                    <input type="text" style="font-size:15px;" placeholder="Enter your username" id="userName" autocomplete="off" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="password" style="font-size:15px;" placeholder="Enter your password" id="password" autocomplete="off" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Confirm Password</span>
+                    <input type="password" style="font-size:14px;" placeholder="Confirm your password" autocomplete="off" required>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Register" onclick="sendData()">
+            </div>
+            <p id="createAccountTag">Already have an account? <a href="login.html">Login</a></p>
+        </form>
+    </div>
+</div>
+</body>
+<script src="signup.js"></script>
+
+</html>

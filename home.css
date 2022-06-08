@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(2, 29, 86);
+    
+    color: #fff;
+}
+.navlinks ul{
+    margin: 0px;
+    display: flex;
+}
+.navlinks ul li{
+    list-style: none;
+}
+.navlinks ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    display: block;
+}
+.navlinks ul li a:hover{
+    background-color: rgb(231, 140, 21);  
+}
+
+.button{
+    color: rgb(255, 255, 255);
+    margin-left: 30%;
+    margin-top: 7%;
+    height: 60px;
+    width: 200px;
+    background-color: rgb(2, 2, 69);
+    border-radius: 10px;
+}
+.button {
+  background-color: rgb(2, 29, 86);
+  color: white;
+  padding: 20px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.button:hover{
+    color: black;
+    font-weight: 600;
+    background-color:white ;
+    transition: 2s;
+    transition: ease-in-out;
+    border: 2px solid rgb(2, 29, 86);
+}
+
+
+.maintext{
+    font-size: 50px;
+    color: rgb(2, 32, 2);
+    margin-left: 30%;
+    margin-right:20px;
+    float: right;
+    text-align: left;
+}
+
+h1{
+    font-size: 22px;
+    margin-left: 30%;
+    float: right;
+    margin-right: 10px;
+    color: rgb(134, 134, 134);
+    margin-top: 5px;
+}
+
+  .bgImage{
+      margin-top: 50px;
+      margin-left: 150px;
+      height:400px;
+      width: 400px;
+  }
+
+.para{
+    
+    animation-duration: 3s;
+    animation-name: fadeOut;
+}
+
+
+@media (min-width: 1300px){
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:rgb(2, 29, 86);
+        
+        color: #fff;
+    }
+    img{
+        height: 80px;
+        width:80px;
+        float: left;
+        border-radius: 10px;
+    }
+    .navlinks ul{
+        margin: 0px;
+        display: flex;
+    }
+    .navlinks ul li{
+        list-style: none;
+    }
+    .navlinks ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 1rem;
+        display: block;
+    }
+    .navlinks ul li a:hover{
+        background-color: rgb(231, 140, 21);  
+    }
+
+    
+    .button{
+        color: rgb(255, 255, 255);
+        margin-left: 30%;
+        margin-top: 7%;
+        height: 60px;
+        width: 200px;
+        background-color: rgb(2, 2, 69);
+        border-radius: 10px;
+    }
+    .button {
+      background-color: rgb(2, 29, 86);
+      color: white;
+      padding: 20px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .button:hover{
+        color: black;
+        font-weight: 600;
+        background-color:white ;
+        transition: 2s;
+        transition: ease-in-out;
+        border: 2px solid rgb(2, 29, 86);
+    }
+    
+    
+    .maintext{
+        font-size: 50px;
+        color: rgb(2, 32, 2);
+        margin-left: 30%;
+        margin-right:20px;
+        float: right;
+        text-align: left;
+    }
+    
+    h1{
+        font-size: 22px;
+        margin-left: 30%;
+        float: right;
+        margin-right: 10px;
+        color: rgb(134, 134, 134);
+        margin-top: 5px;
+    }
+    
+    
+    .sidebar {
+        /* margin: 0px; */
+        /* padding: 0px; */
+        width: 120px;
+        background-color:rgb(2, 29, 86);
+        position: fixed;
+        height: 100%;
+        /* overflow: auto; */
+       
+      }
+    
+      .bgImage{
+          margin-top: 50px;
+          margin-left: 150px;
+          height:400px;
+          width: 400px;
+      }
+    
+      .container{
+          display: flex;
+      }
+      
+    
+    .para{
+        
+        animation-duration: 3s;
+        animation-name: fadeOut;
+    }
+}
+
+
+@media (min-width: 900px){
+ 
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:rgb(2, 29, 86);
+        /* height: 20%; */
+        color: #fff;
+    }
+    img{
+        height: 60px;
+        width:60px;
+        float: left;
+        border-radius: 10px;
+    }
+    .navlinks ul{
+        /* margin: 0px; */
+        display: flex;
+    }
+    .navlinks ul li{
+        list-style: none;
+    }
+    .navlinks ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 1rem;
+        display: block;
+    }
+    .navlinks ul li a:hover{
+        background-color: rgb(231, 140, 21);  
+    }
+
+    
+    .button{
+        color: rgb(255, 255, 255);
+        margin-left: 30%;
+        margin-top: 7%;
+        height: 20%;
+        width: 40%;
+        background-color: rgb(2, 2, 69);
+        border-radius: 10px;
+        color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .button:hover{
+        color: black;
+        font-weight: 600;
+        background-color:white ;
+        transition: 2s;
+        transition: ease-in-out;
+        border: 2px solid rgb(2, 29, 86);
+    }
+    .maintext{
+        font-size: 30px;
+        color: rgb(2, 32, 2);
+        margin-left: 30%;
+        margin-right:20px;
+        float: right;
+        text-align: left;
+    }
+    
+    h1{
+        font-size: 15px;
+        margin-left: 30%;
+        float: right;
+        margin-right: 10px;
+        color: rgb(134, 134, 134);
+        margin-top: 5px;
+    }
+    
+
+    
+      .bgImage{
+          /* margin-top: 50px; */
+          /* margin-left: 150px; */
+          height:300px;
+          width: 300px;
+      }
+    
+      .container{
+          display: flex;
+      }
+      
+    
+    .para{
+        
+        animation-duration: 3s;
+        animation-name: fadeOut;
+    }
+}
+/* @keyframes fadeOut {
+    0%{
+      opacity: 0;
+    }
+       
+    100%{
+        opacity: 1;
+    }
+  }
+
+  
+  .subtxt{
+    
+    animation-duration: 3s;
+    animation-name: fadeOut;
+}
+@keyframes fadeOut {
+    0%{
+      opacity: 0;
+    }
+  
+    50%{
+      opacity: .5;
+    }
+    100%{
+        opacity: 1;
+    }
+  }
+  
+  } */
